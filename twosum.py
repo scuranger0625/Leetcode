@@ -15,9 +15,6 @@ class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         #設置字典
         index={} 
-        
-        
-        
         #當 i 以及 列表nums時 於enumerate(nums) 獲取list中的值和位置
         for i, nums in enumerate(nums):
             #虛設complement為target-nums所得到的數字 
