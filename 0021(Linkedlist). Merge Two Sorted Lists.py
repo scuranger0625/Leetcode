@@ -7,7 +7,7 @@
 # Leetcode, Ligmaball
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        dummy= ListNode(0) # dummy 是「假的頭節點」
+        dummy= ListNode(0) # dummy 是「假的頭節點」  ListNode(可以隨便給一個value 讓節點能被建立)
         tail = dummy # tail：目前合併串列的尾巴（一開始就是 dummy）
 
         # 只要兩條 list 都還有東西，我才有得選
