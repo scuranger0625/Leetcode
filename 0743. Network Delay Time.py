@@ -1,7 +1,4 @@
-import heapq  # 最小堆（優先佇列），用於取出當前距離最小的節點
-from collections import defaultdict  
-from typing import List           
-
+# Leetcode, Ligmaball
 class Solution:
     # Dijkstra Algorithm
     def networkDelayTime(self, times: List[List[int]], n: int, k: int) -> int:
